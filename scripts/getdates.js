@@ -1,8 +1,5 @@
 
-let lastModified = new Date(document.lastModified);
-document.querySelector('#last-modified').textContent = lastModified;
-
-// Get the current date for copyright
+// Get the current date
 const currentDate = new Date();
 
 // Extract the current year and weekday
@@ -11,9 +8,6 @@ const currentYear = currentDate.getFullYear();
 // Update the copyright year dynamically
 document.getElementById('currentYear').textContent = `${currentYear}`;
 
+// Update the second paragraph in the footer with the last modified date
+document.getElementById('mod').textContent = `Last Modified: ${currentDate}`;
 
-// Initialize display element variable
-const dateSubmit = document.querySelector("#date");
- 
-// find current date
-dateSubmit.textContent = new Date()
