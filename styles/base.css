@@ -37,7 +37,7 @@ header h1 {
 nav {
     height: 25rem;
     font-size: 3rem;
-    background-color: black;
+    background-color:navy;
     text-align: center;
     margin: 0 1rem;
 }
@@ -48,7 +48,7 @@ nav li {
 }
 nav a{
     background-color: lightcoral;
-    color: #fff;
+    color: #000;
     text-align: center;
     margin: 2rem 3rem;
     border-radius: 50%;
