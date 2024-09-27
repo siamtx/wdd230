@@ -1,7 +1,7 @@
 @media screen and (min-width: 640px){
-    header{
+   /* header{
         background-color: blanchedalmond;
-    }
+    } */
     nav {
         background-color: bisque;
     }
@@ -12,5 +12,18 @@
 
     nav ul li {
         flex: 1 1 100%
+    }
+    
+    section {
+        display: grid;
+        grid-template-columns: 4fr;
+    }
+
+    .card h3 {
+        grid-column: auto;
+    }
+
+    .card {
+        grid-column: auto;
     }
 }
