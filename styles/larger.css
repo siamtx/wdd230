@@ -14,17 +14,5 @@
     nav ul li {
         flex: 1 1 100%
     }
- /*   
-    section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 
-    .card h3 {
-        grid-column: 1/2;
-    }
-
-    .card {
-        grid-column: 1fr 1fr;
-    }   */
 }
