@@ -35,22 +35,20 @@ header h1 {
 }
 
 nav {
-    height: 25rem;
     font-size: 3rem;
     background-color:bisque;
     text-align: center;
-    margin: 0 1rem;
+    margin: -5rem 1rem 1rem 1rem;
 }
 
 nav li {
     list-style: none;
-   /* margin-top: 2rem;  */
+    margin-top: 2rem;
 }
 nav a{
-    /*background-color: lightcoral;  */
     color: #000;
     text-align: center;
-   /* margin: 2rem 0 2rem 3rem;  */
+    margin: 5rem 0 2rem 3rem;  
     
     text-decoration: space-between;
 }
@@ -58,6 +56,7 @@ nav a{
 nav a:hover {
     background-color: #fff;
     color: lightcoral;
+    color: black;
 }
 
 main {
