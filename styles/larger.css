@@ -8,22 +8,23 @@
 
     nav ul {
         display: flex;
+        justify-content: space-around;
     }
 
     nav ul li {
         flex: 1 1 100%
     }
-    
+ /*   
     section {
         display: grid;
-        grid-template-columns: 4fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .card h3 {
-        grid-column: auto;
+        grid-column: 1/2;
     }
 
     .card {
-        grid-column: auto;
-    }
+        grid-column: 1fr 1fr;
+    }   */
 }
