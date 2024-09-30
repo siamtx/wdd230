@@ -19,9 +19,12 @@
 body{
     display: grid;
     background-color:#8cdedc;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7fr;
 }
 
 h1{
+    grid-column: 4/6;
     text-align: center;
     font-family: var(--heading-font);
     font-size: 4em;
@@ -32,6 +35,7 @@ h2{
     font-size: 2em;
     text-align: center;
     min-height: 80px;
+    
 }
 
 p{
@@ -40,9 +44,30 @@ p{
     padding: 0 2rem 0 2rem;
 }
 
+article {
+    align-content: center;
+    justify-content: center;
+}
+
 .card1, .card2, .card3{
     text-align: center;
 }
+
+.card1 {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    align-items: center;
+
+}
+.card2 {
+    grid-column: 4/6;
+    grid-row: 3/5;
+}
+.card3 {
+    grid-column: 7/8;
+    grid-row: 3/5;
+}
+
 
 .site{
     text-align: center;
@@ -67,6 +92,8 @@ p{
 
 .bottom{
     text-align: center;
+    grid-column: 4/6;
+    grid-row: 6/7;
 
 }
 
