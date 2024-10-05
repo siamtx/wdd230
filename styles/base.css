@@ -156,6 +156,10 @@ nav a:hover {
     text-align: center;
 }
 
+iframe {
+    width: 100%;
+    align-content: center;
+}
 /* End of Main */
 
 /* Footer */
@@ -166,10 +170,5 @@ footer {
     text-align: center;
     margin: 2rem;
 }
-/*
-#stripes {
-    width: 6rem;
-    height: 4rem;
-}
-*/
+
 /* End of Footer */
