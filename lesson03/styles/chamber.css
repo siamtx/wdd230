@@ -1,0 +1,66 @@
+.moon-dance-regular {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.mooli-regular {
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.raleway-regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Body */
+  body {
+    display: grid;
+  }
+
+  nav {
+    display: flex;
+  }
+
+
+  /* Header */
+  h1 {
+    font-family: "Moon Dance" sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  header img {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+  }
+  /* End of Header */
+
+
+  /* Footer */
+  footer img {
+    width: 45px;
+    height: 35px;
+    align-items: center;
+  }
+  /* End of Footer */
+
+ /* End of Body */
+
+
+
+
+
+
+ 
