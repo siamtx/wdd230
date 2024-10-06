@@ -2,5 +2,10 @@
     h1 {
         font: bold;
     }
+
+    section img {
+        width: 600px;
+        height: 400px;
+    }
     
 }
