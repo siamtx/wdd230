@@ -1,29 +1,28 @@
-*root{
-    .moon-dance-regular {
-        font-family: "Moon Dance", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-    
-    .mooli-regular {
-        font-family: "Mooli", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-    .raleway-regular {
-        font-family: "Raleway", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-      }
-    
-    .calligraffitti-regular {
-        font-family: "Calligraffitti", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-}
+
+.moon-dance-regular {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.mooli-regular {
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.raleway-regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
   /* Body */
@@ -39,8 +38,9 @@
 
   /* Header */
   h1 {
-    font-family: "Moon Dance" sans-serif;
-    font-weight: 600;
+    font-family: "Moon Dance", cursive;
+    font-weight: 800;
+    font-style: bold;
     color: black;
     text-align: center;
   }
@@ -48,12 +48,16 @@
     position: center;
     width: 80%;
     height: 80%;
+    margin-bottom: 3rem;
     transform: translateX(12%);
+    border: 0.125rem solid black;
+    
   }
 
   header p {
     margin: 3rem;
-    font-family: "Moon Dance" sans-serif;
+    font-family: "Moon Dance", sans-serif;
+    font-size: 1.5rem;
     font-weight: 300;
   }
   /* End of Header */
@@ -61,7 +65,7 @@
   /* Main */
   main {
     text-align: center;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
   }
 
@@ -77,17 +81,35 @@
     align-content: center;
   }
 
+  section p {
+    font-family: "Calligraffitti", cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: bold;
+    color: black;
+  }
+
   section li {
     text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
   }
 
   /* End of Main */
 
   /* Footer */
+  footer {
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Mooli", sans-serif;
+    text-align: space-around;
+  }
+
   footer img {
     width: 45px;
     height: 35px;
-    align-items: center;
   }
   /* End of Footer */
 
