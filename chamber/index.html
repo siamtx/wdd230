@@ -10,19 +10,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://siamtx.github.io/wdd230/">
     <meta property="og:img" content="https://southcarolinalowcountry.com/wp-content/uploads/2020/01/63-Historic-Walterboro-Walking-Tour.png.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mooli&family=Moon+Dance&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/Chamber.ico">
-    <link rel="stylesheet" href="styles/chambernormalize.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/chamberlarger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <Header>
         <div class="brand name">
             <h1>Colleton County Chamber of Commerce</h1>
         </div>
+        <img class="hero" src="images/AceBasin.webp" alt="Plantation house, tress with spanish moss">
     </Header>
     <nav>
         <ul>
@@ -33,13 +35,44 @@
         </ul>
     </nav>
     <main>
-
+        <section>
+            <div class="current events"> 
+                <div class="fa-solid fa-calendar">
+                   <h2>Current Events</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="weather">
+                <div class="fa-solid fa-sun">
+                    <h2>Weather</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="spotlight">
+                <div class="fa-solid fa-lightbulb">
+                    <h2>Spotlight</h2>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p id="copy"> &copy; <span id="currentYear"></span> - Tim Howell United States </p>
         <img src="images/FlagSC.png" alt="US flag">
-        <p id="mod">lastModified</p>        
+        <!-- <amp-img src="images/FlagSC.png" 
+        width="40" 
+        height="30" 
+        layout="responsive" 
+        alt="SC Flag">        
+            <div fallback>offline</div>
+        </amp-img>     -->
+        <p id="mod">lastModified</p>
+       
+        
+                
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
 </body>
 </html>
