@@ -84,6 +84,25 @@
   /* End of Header */
 
   /* Navigation */
+  #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  #menu::before {
+    content: "☰";
+    font-size: 5rem;
+  }
+  
+  #menu.open::before {
+    content: "❎";
+  }
+  
   nav {
     font-size: 3rem;
     font-family: "Moon Dance", cursive;
@@ -192,14 +211,28 @@ nav a:hover {
 
   /* Footer */
   footer {
-    text-align: center;
-    font-size: 1.25rem;
-    font-family: "Mooli", sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+ 
+ 
   }
 
+  .left {
+    font-size: 1.25rem;
+    font-family: "Mooli", sans-serif;
+    grid-column: 1/2;
+    text-align: left;
+  }
   footer img {
     width: 45px;
     height: 35px;
+    padding-left: 1rem;
+  }
+
+  .contact {
+    font-family: "Mooli", sans-serif;
+    grid-column: 3/4;
+    text-align: left;
   }
   /* End of Footer */
 
