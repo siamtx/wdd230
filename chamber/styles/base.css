@@ -80,7 +80,9 @@
   }
 
   header p {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
     text-align: right;
     grid-column: 2/3;
     color: var(--raisin-black);
@@ -90,9 +92,11 @@
     width: 8rem;
     height: 3rem;
     font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
     text-align: center;
     align-content: center;
-    margin: 0.75rem;
+    margin: 1rem;
     border-radius: 15px;
     grid-column: 3/4;
     background-color: red;
