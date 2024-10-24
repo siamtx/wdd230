@@ -17,6 +17,15 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr;
      }
+
+     /*
+     picture {
+        width: 960px;
+        height: 100vh;
+        align-content: center;
+     }
+
+     */
      
     main h2 {
          text-align: center;

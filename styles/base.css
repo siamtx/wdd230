@@ -135,6 +135,14 @@ nav a:hover {
     text-transform: uppercase;
 }
 
+.hero picture img{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .card {
     font-size: medium;
     margin: 1rem;
