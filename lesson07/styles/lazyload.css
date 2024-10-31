@@ -1,0 +1,26 @@
+* :root {
+    content: normal;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+main {
+    margin: 2rem auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: 2rem;
+    border-radius: 10%;
+    border: .25rem solid black;
+}
