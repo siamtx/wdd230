@@ -19,8 +19,27 @@ main {
     flex-direction: column;
 }
 
-img {
+picture img {
     margin: 2rem;
     border-radius: 10%;
     border: .25rem solid black;
+    background-color: #000;
+    animation: fade 15s;
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    width: 45px;
+    height: 30px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1s;
+    }
 }

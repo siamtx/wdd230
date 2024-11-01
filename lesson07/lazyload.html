@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lazy Load Demonstration Page</title>
+    <meta name="description" content="This is an exmaple of Lazy Loading of pictures.">
+    <meta name="author" content="Tim Howell">
     <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 <body>
@@ -14,6 +16,7 @@
         <picture>
             <img src="images/andpersand.webp" alt="placeholder picture" loading="lazy" width="400" height="600">
         </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime beatae adipisci hic aliquam explicabo architecto veniam reiciendis ab consectetur sapiente vel velit ex debitis suscipit expedita vero odit praesentium illum harum voluptates eaque perspiciatis, ducimus omnis! Nulla consequuntur, reprehenderit incidunt, sequi aliquid minus laudantium vel dolore nemo fuga facilis rem quisquam optio accusamus sapiente et iure cumque amet nostrum exercitationem deserunt. Culpa non iste neque qui inventore, quos vel, at nihil facilis numquam totam nisi beatae ex! Perferendis quo voluptatum porro consequatur quod nam. Architecto temporibus, eum adipisci, in aliquid nostrum totam quisquam perspiciatis obcaecati, sit rem. Aliquid numquam illum possimus iusto quos provident facere, facilis ipsum praesentium laborum. Consequatur, at rem. Cum voluptatibus id quibusdam dolore, quae molestias iste aliquid modi sint ab distinctio maxime praesentium dicta aspernatur nulla rerum temporibus eius et perferendis at similique animi saepe! Dicta laudantium, illo harum excepturi est sunt culpa officiis iure impedit totam! Eligendi voluptas quae aspernatur in error similique aperiam nobis amet architecto, modi ex, quis quidem, autem voluptatibus. Similique ad officia, id tempore mollitia laborum molestias eos consequatur facere repudiandae ex quisquam cupiditate sed dicta, quidem distinctio, dolore neque vitae rem ab dignissimos alias! Ut incidunt dolor reiciendis modi tempore eos mollitia quasi aperiam nostrum vitae beatae qui rerum ea minus autem quos, earum perferendis consequatur temporibus recusandae! Libero earum sequi esse tempore, inventore possimus ratione! Tenetur ratione dignissimos, vel quaerat totam rem iste cumque tempora autem accusantium quasi doloribus fugit voluptatem aperiam aliquam maiores, a officiis! Aut, itaque soluta dolorum tempora, reiciendis quaerat quis sit laborum eos adipisci provident eum. Eveniet fugit, ea quis possimus totam sint deleniti, numquam facilis fuga repellat fugiat cum in exercitationem harum pariatur quasi odit tenetur nemo soluta cupiditate. Eveniet ratione, aliquam iusto animi aut corporis autem ad, nam dolore similique eligendi consectetur. Perspiciatis cum expedita sequi provident cumque animi alias nihil eum a possimus magni laudantium totam nam ratione quisquam beatae quae sunt minima, natus voluptate similique! Excepturi adipisci natus sint. Incidunt ipsa, cumque qui mollitia corrupti ullam odio, eligendi nemo vero, cum dolorum nihil pariatur sequi rem illo fuga ex laudantium nam provident nulla perspiciatis aperiam possimus! Laudantium repellendus architecto animi beatae eveniet aspernatur delectus rerum tempora, assumenda, facilis, ad quisquam accusamus voluptatem quod explicabo a odit esse reprehenderit! Molestias quas provident eum earum quaerat sed nam dignissimos, molestiae dolore voluptas quos atque unde accusantium et reiciendis dicta eveniet odit voluptatum nulla omnis ex, eaque, minus blanditiis. Nesciunt et accusamus ducimus provident quos. Itaque eveniet doloribus, iste corrupti vero optio voluptates. Esse illum quidem, omnis saepe necessitatibus ex eos repellendus laborum aliquam voluptate? A enim at molestias. Expedita itaque fugit a cumque laudantium quae, nihil natus tempore ipsa alias, ratione soluta atque quibusdam harum iure odit perferendis. Quia minima earum assumenda fuga non eos mollitia perferendis quae voluptate. Natus, laudantium minus a veritatis, illum corrupti asperiores magnam perspiciatis ullam, quasi incidunt repudiandae laboriosam commodi quos aut harum at temporibus nihil odio nemo dolorem blanditiis. Illo, est labore animi veniam inventore libero?</p>
         <picture>
             <img src="images/beachshells.webp" alt="placeholder picture" loading="lazy" width="400" height="600">
         </picture>
@@ -33,9 +36,11 @@
 
     </main>
     <footer>
-
+        <p id="copy"> &copy; <span id="currentYear"></span> - Tim Howell United States </p>
+        <img src="images/Flag.webp" alt="US flag">
+        <p id="mod">lastModified</p>
     </footer>
     
-    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>
