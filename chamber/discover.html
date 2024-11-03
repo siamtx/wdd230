@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"WDD 230 - Chamber Discover - Tim Howell"</title>
-    <meta name = "description" content = "WDD 230 - Web Frontend Development, Timothy W. Howell">
-    <meta name = "author" content = "Tim Howell WDD 230: Web Frontend Development">
-    <meta property="og:title" content="Chamber Site Plan">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://siamtx.github.io/wdd230/">
-    <meta property="og:img" content="https://blackstoneheritagecorridor.org/wp-content/uploads/2020/10/world-rivers-day-thumbnail.png">
+    <title>"Tim Howell - WDD 230 - Web Frontend Development"</title>
+    <meta name= "description" content="WDD 230 - Web Frontend Development. The course page for the class. Contains links to homework assingments.  Authored by Tim Howell.">
+    <meta name="author" content="Tim Howell">
+    <meta property="og:title" content="Homepage - WDD 230: Web Frontend Development">
+    <meta property="og:type" content="website">    
+    <meta property="og:url" content="https://siamtx.github.io/wdd230/#">
+    <meta property="og:image" content="https://siamtx.github.io/wdd230/#">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mooli&family=Moon+Dance&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/Chamber.ico">
-    <link rel="stylesheet" href="styles/chambernormalize.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/chamberlarger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">           
 </head>
-<nav>
-    <ul>
-        <li><a href="https://siamtx.github.io/wdd230/chamber/index.html">Home</a></li>
-        <li><a href="https://siamtx.github.io/wdd230/chamber/discover.html">Discover</a></li>
-        <li><a href="https://siamtx.github.io/wdd230/chamber/directory.html">Directory</a></li>
-        <li><a href="https://siamtx.github.io/wdd230/chamber/join.html">Join</a></li>
-    </ul>
-</nav>
-<header>
-    <div class="brand name">
-        <h1>Discover the Chamber</h1>
-    </div>
-</header>
+
 <body>
+    <header>
+        <img src="images/TWH.webp" alt="picture of Tim Howell">
+        <h1>Tim Howell</h1>
+
+    </header>
+
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://siamtx.github.io/wdd230/lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng#:~:text=And%20it%20came,spoken%20unto%20them." target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    <main >
+        
+    </main>
     <footer>
-        <div class="left">
-            <p id="copy"> &copy; <span id="currentYear"></span> - Tim Howell United States <img src="images/FlagSC.png" alt="US flag"></p>
-            <p>Chamber of Commerce Project WDD 230 </p>
-            
-            <p id="mod">lastModified</p>
-        </div>
-        <div class="contact">
-            <h4>Get in Touch</h4>
-            <p>Colleton County Chamber of Commerce</p>
-            <p>📍 111A E Washington St, Walterboro, SC</p>
-            <p>📞(843)549-9595</p>
-            <p>📧info@colletonchamber.org</p>
-        </div>
+        <p id="copy"> &copy; <span id="currentYear"></span> - Tim Howell United States </p>
+        <img src="images/Flag.webp" alt="US flag">
+        <p id="mod">lastModified</p>
+        
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hambutton.js"></script>
+    <script src="scripts/pagevisits.js"></script>
 </body>
 </html>
+
