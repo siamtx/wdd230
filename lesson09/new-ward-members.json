@@ -1,0 +1,40 @@
+{
+    "wardInformation": 
+    {
+        "familyName" : "Poptart",
+        "moveInDate": "2023-05-16",
+        "familySize": "5",
+        "bishopricVisit": "true",
+        "familyMembers":
+        [
+            {
+                "name": "BlueBerry Poptart",
+                "gender": "Male",
+                "birthdate": "1975-2-15"
+            }, 
+            {
+                "name": "Strawberry Poptart",
+                "gender": "Female",
+                "birthdate": "1980-7-21"
+            }, 
+            {
+                "name": "Apple Poptart",
+                "gender": "Male",
+                "birthdate": "1982-8-17"
+            }, 
+            {
+                "name": "Cherry Poptart",
+                "gender": "Female",
+                "birthdate": "1985-10-10"
+            }, 
+            {
+                "name": "Brown Sugar Poptart",
+                "gender": "Female",
+                "birthdate": "1987-9-28"
+            } 
+        ]
+
+    }
+
+
+}
