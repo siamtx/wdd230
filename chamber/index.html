@@ -86,14 +86,12 @@
                 <i class="fa-solid fa-sun"></i>
                 <h2>Weather</h2>
             </div>
-            <div class="temps">
-                <ul>
-                    <li>Temperature: 75</li>
-                    <li>Windspeed: 7</li>
-                    <li>Wind Chill: </li>
-                    <li>######</li>
-                    <li>######</li>
-                </ul>
+            <div>
+                <p>It is<span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
             </div>
         </section>
         <section>
@@ -129,7 +127,8 @@
         
                 
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/mode.js"></script>
+    <script src="scripts/mode.js"></script>    
 </body>
 </html>

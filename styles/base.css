@@ -159,6 +159,15 @@ nav a:hover {
     text-align: center;
 }
 
+figure img {
+    padding-left: 47%;
+    padding-right: 53%;
+}
+
+figcaption {
+    padding-left: 48%;
+    padding-right: 52%;
+}
 
 /* End of Main */
 
