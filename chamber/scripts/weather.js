@@ -3,10 +3,13 @@
 
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
+const dayoneTemp = document.querySelector('#dayone-temp');
+const daytwoTemp = document.querySelector('#daytwo-temp');
+const daythreeTemp = document.querySelector('#daythree-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector("figcaption");
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=32.9&lon=-80.68&appid=906a1930e266ce498fc9ec3ad06e00ef';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?units=imperial&lat=32.9&lon=-80.68&appid=906a1930e266ce498fc9ec3ad06e00ef';
 
 async function apiFetch() {
     try {
@@ -15,6 +18,9 @@ async function apiFetch() {
             const data = await response.json();
             console.log(data);
             displayResults(data);
+            displayResults1(data);
+            displayResults2(data);
+            displayResults3(data);
         } else {
             throw Error(await response.text());
         }
@@ -32,6 +38,31 @@ apiFetch();
 
 function displayResults(data) {
     currentTemp.innerHTML = `${Math.round(data.main.temp)} &deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
+
+function displayResults1(data) {
+    dayoneTemp.innerHTML = `${Math.round(data.main.temp)} &deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
+function displayResults2(data) {
+    daytwoTemp.innerHTML = `${Math.round(data.main.temp)} &deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
+function displayResults3(data) {
+    daythreeTemp.innerHTML = `${Math.round(data.main.temp)} &deg;F`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
